@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UI.AddTravelActivity"
+    tools:showIn="@layout/activity_add_travel_activity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:text="Enter your name" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textCapCharacters" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your phone number" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your email address" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/pickUpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter pickup adress" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/pickUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/numOfPassengersText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter number of passengers" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/numOfPassengers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/travelDateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Enter travel date:  " />
+        </TableRow>
+
+        <TableRow>
+
+            <DatePicker
+                android:id="@+id/travelDate"
+                android:layout_width="12mm"
+                android:layout_height="wrap_content"
+                android:datePickerMode="calendar" />
+        </TableRow>
+        <Space
+            android:layout_height="15dp"></Space>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/arrivalDateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Enter arrival date:  " />
+        </TableRow>
+
+        <TableRow>
+
+            <DatePicker
+                android:id="@+id/arrivalDate"
+                android:layout_width="12mm"
+                android:layout_height="wrap_content"
+                android:datePickerMode="calendar" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/destAddressesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter destinations:" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/destAddresses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do you want unbreakable bus" />
+        </TableRow>
+
+        <RadioGroup
+            android:id="@+id/isUnbreakAble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="No"
+                android:textColor="#000" />
+        </RadioGroup>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The travel including children?" />
+        </TableRow>
+
+
+        <RadioGroup
+            android:id="@+id/isChildren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/yes2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/no2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="No"
+                android:textColor="#000" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/Sending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:text="Enter" />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Not error found yet" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.core.widget.NestedScrollView>

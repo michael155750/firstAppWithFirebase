@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "491482798974",
+    "firebase_url": "https://secondtravelapp-c6aca-default-rtdb.firebaseio.com",
+    "project_id": "secondtravelapp-c6aca",
+    "storage_bucket": "secondtravelapp-c6aca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491482798974:android:794f6da06cc67d12dc312f",
+        "android_client_info": {
+          "package_name": "com.example.addtraveltofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491482798974-evdl3jhe9vkdgsbjehn3s079r12ounni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiAQocyO7rk_5jKiHUSgnJju06E3mHCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491482798974-evdl3jhe9vkdgsbjehn3s079r12ounni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491482798974:android:eb56aee048299426dc312f",
+        "android_client_info": {
+          "package_name": "com.example.firstappwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491482798974-evdl3jhe9vkdgsbjehn3s079r12ounni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiAQocyO7rk_5jKiHUSgnJju06E3mHCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491482798974-evdl3jhe9vkdgsbjehn3s079r12ounni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491482798974:android:f0451f552eb23c60dc312f",
+        "android_client_info": {
+          "package_name": "com.example.secondtravelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491482798974-evdl3jhe9vkdgsbjehn3s079r12ounni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiAQocyO7rk_5jKiHUSgnJju06E3mHCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491482798974-evdl3jhe9vkdgsbjehn3s079r12ounni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
